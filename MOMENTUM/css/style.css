@@ -1,0 +1,30 @@
+.hidden {
+    display: none;
+}
+* {
+    color: whitesmoke;
+    font-family: 'Merriweather', serif;
+}
+.center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 100%;
+    background-size: cover;
+}
+
+#clock {
+    font-size: 70px;
+}
+
+#date {
+    font-size: 25px;
+}
+
+#weather {
+    text-align: right;
+    vertical-align: bottom;
+    margin:30px;
+}
