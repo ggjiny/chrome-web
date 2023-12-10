@@ -1,36 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Momentum</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
-</head>
-<body>
-<div class="center">
-    <form id="login-form" class="hidden">
-        <input required maxlength="15" type="text" placeholder="What is your name?"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+KR&family=Song+Myung&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="center">
+      <form id="login-form" class="hidden">
+        <input
+          required
+          maxlength="15"
+          type="text"
+          placeholder="What is your name?"
+        />
         <button>Log In</button>
-    </form>
-    <h1 id="clock">00:00:00</h1>
-    <h1 id="date">2000/00/00 MON</h1>
-    <h1 id="greeting" class="hidden"></h1>
-    <form id="todo-form">
-        <input type="text" placeholder="Write a To Do and Press Enter" required/>
-    </form>
-    <ul id="todo-list"></ul>
-    <div id="quote">
-        <span></span>
-        <span></span>
+      </form>
+      <h1 id="date">2000/00/00 MON</h1>
+      <h1 id="clock">00:00:00</h1>
+
+      <h1 id="greeting" class="hidden"></h1>
+      <form id="todo-form">
+        <input
+          type="text"
+          placeholder="Write a To Do and Press Enter"
+          required
+        />
+      </form>
+      <ul id="todo-list"></ul>
     </div>
-</div>
+    <div id="quote">
+      <span></span>
+      <br />
+      <br />
+      <span></span>
+    </div>
     <div id="weather">
-        <span></span><br>
-        <span></span>
+      <span></span><br />
+      <span></span>
     </div>
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
@@ -38,6 +59,5 @@
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
     <script src="js/weather.js"></script>
-    <!-- </div> -->
-</body>
+  </body>
 </html>
